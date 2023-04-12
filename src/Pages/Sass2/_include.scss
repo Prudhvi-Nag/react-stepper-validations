@@ -1,0 +1,46 @@
+@mixin aBeforeAfter {
+    content: "";
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 1;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 37px solid transparent;
+        border-bottom: 37px solid transparent;
+        border-left: 16px solid transparent;
+}
+@mixin lia{
+    position: relative;
+    display: block;
+    padding: 20px;
+    padding-right: 0 !important;
+    height: 72px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    cursor: default;
+    background-color: $primarycolor;
+
+}
+@mixin mix3{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    border-radius: 50%;
+    color: $primarycolor;
+    background-color: $color300;
+}
+// @mixin last-a{
+//     position: absolute;
+//         top: 0;
+//         left: 100%;
+//         z-index: 1;
+//         display: block;
+//         width: 0;
+//         height: 0;
+//         border-left: 16px solid transparent;
+// }
